@@ -8,3 +8,7 @@
 Stud is a modern Brick Hill remake project made using Laravel
 
 ## Contributors
+<a href="https://github.com/asticsoftwares/stud/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=asticsoftwares/stud" />
+</a>
+
