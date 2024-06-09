@@ -38,6 +38,12 @@ Now, to setup the needed database tables, run
 php artisan migrate
 ```
 <br>
+Now the final step, we need to generate an encryption key by running
+
+```
+php artisan key:generate
+```
+<br>
 And that's it, now run the following command and you should be able to access Stud on localhost:8000:
 
 ```
@@ -46,6 +52,9 @@ php artisan serve
 
 ## Notes
 If you lose the .env file and don't have a backup of APP_KEY, you won't be able to access already existing sessions and user balance as they are encrypted using that key 
+<br>
+<br>
+To give user admin permission, set the account's power to 4 (Below that power will be used for things such as forum moderators)
 
 ## Contributing 
 There are no specific rules to contributing, just make sure to inclue the changelog in the pull request message 
